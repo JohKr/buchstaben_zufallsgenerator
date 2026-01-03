@@ -6,7 +6,7 @@ input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
     basic.pause(700)
     basic.setLedColors(0x00ff00, 0x00ff00, 0x00ff00)
     basic.pause(700)
-    Position = randint(0, 26)
+    Position = randint(0, 25)
     Buchstabe = Buchstabenliste[Position]
     basic.showString("" + (Buchstabe))
 })
@@ -16,6 +16,7 @@ let Buchstabenliste: string[] = []
 basic.showIcon(IconNames.Happy)
 Buchstabenliste = [
 "A",
+"B",
 "C",
 "D",
 "E",
